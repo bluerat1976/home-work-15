@@ -1,0 +1,27 @@
+{
+  "name": "home-work-15",
+  "version": "1.0.0",
+  "description": "Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluerat1976/home-work-15.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluerat1976/home-work-15/issues"
+  },
+  "homepage": "https://github.com/bluerat1976/home-work-15#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0"
+  }
+}

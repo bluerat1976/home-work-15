@@ -1,34 +1,21 @@
-debugger;
 
-/*
-var a = prompt( 'input a' );
-var b = prompt( 'input b' );
-var c = prompt( 'input c' );
+var a = parseInt(prompt('input a'), 10);
+var b = parseInt(prompt('input b'), 10);
+var c = parseInt(prompt('input c'), 10);
+var x;
 
-a = parseInt( a );
-b = parseInt( b );
-c = parseInt( c );
-*/
-
-a = 3;
-b = 9;
-c = 2;
-
-function getDis ( a, b, c ) { 
-    return b*b - 4*a*c;
+function getDis() {
+  return b * b - 4 * a * c;
 }
-alert( getDis() );
 
-/*
-if( result < 0 ) {
-    alert('There are not datas');
+alert(getDis());
 
-} else if(results === 0) {
-   var x = - b / (2 *a);
-    
-    } else {
-        x = (- b + Math.sqrt(result)) / (2 *a);
-    }  
+if (getDis() < 0) {
+  alert('There are not datas');
+} else if (getDis() === 0) {
+  x = -b / (2 * a);
+} else {
+  x = (-b + Math.sqrt(getDis())) / (2 * a) || (-b - Math.sqrt(getDis())) / (2 * a);
+}
 
-alert ( x );
-*/
+alert(x);
